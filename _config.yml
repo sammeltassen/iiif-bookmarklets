@@ -22,8 +22,8 @@ title: IIIF Bookmarklets
 email: jules.schoonman@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Collection of bookmarklets to work with IIIF content
-baseurl: "/iiif-bookmarklets" # the subpath of your site, e.g. /blog
-url: "http://sammeltassen.nl" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/iiif-bookmarklets" # the subpath of your site, e.g. /blog
+url: "https://iiif-bookmarklets.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sammeltassen
 github_username:  sammeltassen
 repository: sammeltassen/iiif-bookmarklets # for github-metadata
