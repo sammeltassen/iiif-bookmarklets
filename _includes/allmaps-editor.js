@@ -1,0 +1,1 @@
+javascript:location=`https://editor.allmaps.org/#/collection?url=${encodeURIComponent(window.location)}`

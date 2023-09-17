@@ -1,0 +1,1 @@
+javascript:location=`https://projectmirador.org/embed/?manifest=${encodeURIComponent(window.location)}`

@@ -1,0 +1,1 @@
+javascript:location=`https://uv-v4.netlify.app/#?manifest=${encodeURIComponent(window.location)}`
