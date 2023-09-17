@@ -8,7 +8,7 @@ Opens the IIIF Manifest or Collection URL of the current page on [archive.org](h
 
 Drag the button below to the favorites bar of your browser in order to use this bookmarklet. Alternatively, you can copy the minimized code at the bottom of this page and paste this in the address or URL field of a new bookmark.
 
-<a href="{% include archive-org.min.js%}">Get IIIF Manifest</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
+<a href="{% include internet-archive.min.js%}">Get IIIF Manifest</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 Pages to try the bookmarklet:
 
@@ -23,7 +23,7 @@ The IIIF implementation at the Internet Archive is still being tested, and many 
 ## Source code
 
 ```js
-{% include archive-org.js%}
+{% include internet-archive.js%}
 ```
 
 Minimized version (used to create the link above):
@@ -32,7 +32,7 @@ Minimized version (used to create the link above):
 For the minimized version, comments, spaces and newlines are removed from the code above. You can copy this code, create a new bookmark, and paste it in the address or url field.
 
 ```js
-{% include archive-org.min.js%}
+{% include internet-archive.min.js%}
 ```
 
 ## See also
