@@ -4,7 +4,8 @@
 
 title: IIIF Bookmarklets
 layout: default
-nav_order: 1
+# nav_order: 1
+nav_exclude: true
 ---
 This site contains a series of bookmarklets to work with IIIF content. You can install a bookmarklet by dragging the corresponding button to your favorites bar, or copying one of the scripts and pasting it in the address or URL field of a new bookmark. All bookmarklets have been tested on Chrome, Firefox and Safari.
 

@@ -4,7 +4,7 @@ Source repository for [IIIF Bookmarklets website](http://iiif-bookmarklets.netli
 
 This site uses [Jekyll](https://jekyllrb.com) and the [Just the Docs](https://just-the-docs.com) theme. Deployed with [Netlify](https://www.netlify.com).
 
-Bookmarklets are in the `_includes` directory; pages in `docs`.
+Bookmarklets are in the `_includes` directory; pages in `bookmarklets`.
 
 ## Local development
 

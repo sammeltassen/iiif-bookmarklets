@@ -1,4 +1,4 @@
-javascript:(async function () {
+javascript: (async function () {
   // Check if visiting a page on archive.org
   if (window.location.href.includes('archive.org/details/')) {
     // Find the id of the current page
