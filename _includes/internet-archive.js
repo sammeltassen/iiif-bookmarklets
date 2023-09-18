@@ -2,7 +2,7 @@ javascript: (async function () {
   // Check if visiting a page on archive.org
   if (window.location.href.includes('archive.org/details/')) {
     // Find the id of the current page
-    const id = window.location.href.match(/https:\/\/archive.org\/details\/(.*?)\/*$/)[1];
+    const id = window.location.href.match(/https:\/\/archive.org\/details\/([^/?]*)/)[1];
     // Check if the page is an item or collection
     const type = document.head.querySelector('[property~=mediatype][content]') ? 'manifest' : 'collection';
     // Construct the manifest uri
