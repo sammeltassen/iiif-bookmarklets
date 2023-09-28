@@ -6,11 +6,11 @@ permalink: /collections/leventhalmap/
 nav_order: 2.4
 ---
 # Leventhal Map & Education Center
-Bookmarklet to open an item directly in the Allmaps Editor.
+Bookmarklet to open an item directly in Allmaps. It checks if a Georeference Annotation is available and subsequently opens the item in the Allmaps Editor or Allmaps Viewer.
 
 {% include instructions.md %}
 
-<a href="{% include leventhalmap.min.js%}">Open in Allmaps Editor</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
+<a href="{% include leventhalmap.min.js%}">Open in Allmaps</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Testing
 
