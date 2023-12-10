@@ -6,11 +6,33 @@ permalink: /collections/nasjonalbiblioteket/
 nav_order: 2.3
 ---
 # National Library of Norway
+
+## Get Manifest
+Bookmarklet to open the IIIF Manifest.
+
+{% include instructions.md %}
+
+<a href="{% include nasjonalbiblioteket.min.js%}">Get Manifest</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
+
+### Source code
+
+```js
+{% include nasjonalbiblioteket.js%}
+```
+
+## Open in Allmaps Editor
+
 Bookmarklet to open an item directly in the Allmaps Editor.
 
 {% include instructions.md %}
 
 <a href="{% include nasjonalbiblioteket-allmaps.min.js%}">Open in Allmaps Editor</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
+
+### Source code
+
+```js
+{% include nasjonalbiblioteket-allmaps.js%}
+```
 
 ## Testing
 
@@ -20,9 +42,3 @@ Bookmarklet to open an item directly in the Allmaps Editor.
 | [Hydrografisk Kart over det sydlige Norge](https://www.nb.no/items/4be58ba9171d0ad7c26001d2a21cb5a2) | Manifest |
 
 [Search results for digitized maps](https://www.nb.no/search?mediatype=kart&viewability=ALL)
-
-## Source code
-
-```js
-{% include nasjonalbiblioteket-allmaps.js%}
-```

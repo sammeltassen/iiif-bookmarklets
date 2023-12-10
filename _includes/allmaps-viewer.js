@@ -1,0 +1,1 @@
+javascript:location=`https://viewer.allmaps.org/?url=${encodeURIComponent(window.location)}`

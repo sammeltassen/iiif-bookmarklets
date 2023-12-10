@@ -20,8 +20,21 @@ Opens the current address in the [Allmaps Editor](https://editor.allmaps.org/).
 {% include allmaps-editor.js%}
 ```
 
+## Allmaps Viewer
+Opens the current address in the [Allmaps Viewer](https://viewer.allmaps.org/).
+
+{% include instructions.md %}
+
+<a href="{% include allmaps-viewer.js %}">Open in Allmaps Viewer</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
+
+### Source code
+
+```js
+{% include allmaps-viewer.js%}
+```
+
 ## Allmaps Annotation
-Checks if an Allmaps Annotation exists for the current address, and if not prompts the user to open the address in the [Allmaps Editor](https://editor.allmaps.org/).
+Checks if an Allmaps Annotation exists for the current address, and if not, prompts the user to open the address in the [Allmaps Editor](https://editor.allmaps.org/).
 
 {% include instructions.md %}
 
@@ -33,8 +46,3 @@ Checks if an Allmaps Annotation exists for the current address, and if not promp
 {% include allmaps-annotation.js%}
 ```
 
-Minified version:
-
-```js
-{% include allmaps-annotation.min.js%}
-```

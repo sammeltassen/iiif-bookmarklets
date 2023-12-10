@@ -25,6 +25,8 @@ Sometimes you want to get the manifest parameter after having opened something i
 
 <a href="{% include manifest-param.min.js%}">Get IIIF Manifest</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
 
+## Source code
+
 ```js
 {% include manifest-param.js %}
 ```
