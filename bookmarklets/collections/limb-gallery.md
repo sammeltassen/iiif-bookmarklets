@@ -2,7 +2,7 @@
 layout: default
 title: Limb Gallery
 parent: Collections
-permalink: /collections/limb-gallery-viewer/
+permalink: /collections/limb-gallery/
 nav_order: 2.6
 ---
 # Limb Gallery
@@ -10,7 +10,7 @@ Many french archives use Arkhênum's [Limb Gallery](https://limbgallery.com/) so
 
 {% include instructions.md %}
 
-<a href="{% include limb-gallery-viewer.min.js%}">Get IIIF Manifest</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
+<a href="{% include limb-gallery.min.js%}">Get IIIF Manifest</a>{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ## Testing
 Some links to test the bookmarklet:
@@ -28,11 +28,11 @@ Due to different configurations this bookmarket will not work for all CONTENTdm 
 ## Source code
 
 ```js
-{% include limb-gallery-viewer.js%}
+{% include limb-gallery.js%}
 ```
 
 Minimized version:
 
 ```js
-{% include limb-gallery-viewer.min.js%}
+{% include limb-gallery.min.js%}
 ```
